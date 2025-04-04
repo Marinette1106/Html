@@ -1,0 +1,66 @@
+body{
+    /* background-color: aqua; */
+}
+
+.container{
+    text-align: center;
+    /* padding: 30px; */
+}
+.partie1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: -100px;
+}
+.image1{
+    height: 80vh;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    margin-bottom: 150px;
+}
+
+.paragraphe1{
+    width: 45%;
+    text-align: left;
+}
+.partie2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: -280px;
+}
+.image2{
+    height: 80vh;
+    width: 45%;
+    margin-bottom: 150px;
+}
+
+.paragraphe2{
+    width: 45%;
+    text-align: left;
+}
+.imagePresentation{
+    height: 100vh;
+    background-image: url('./siv5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    margin-top: -300px;
+}
+.contentGallerie{
+    display: flex;
+}
+.imgallerie{
+    width: 30%;
+}
+
+.rond{
+    width: 25%;
+    height: 50vh;
+    background-color: blue;
+    border: 2px dashed rgb(189, 7, 7);
+    border-radius: 50%;
+}

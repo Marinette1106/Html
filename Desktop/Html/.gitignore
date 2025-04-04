@@ -1,0 +1,12 @@
+# Ignorer les fichiers systèmes
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+
+# Ignorer les fichiers des éditeurs
+.vscode/
+
+# Ignorer les dossiers générés par npm ou d'autres outils
+node_modules/
